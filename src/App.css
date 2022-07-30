@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto;
+  padding: 0 150px;
+}
+.header {
+  text-align: center;
+  font-size: 2.25rem;
+  padding: 1.25rem;
+  background: #9dfae6;
+}
+.contact-com {
+  margin: 40px auto;
+  text-align: center;
+}
+.contact-form {
+  margin: auto;
+  width: 50%;
+  display: block;
+  background: gray;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.contact-form h2 {
+  color: #ffffff;
+}
+.contact-form input {
+  width: 90%;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+.contact-form button {
+  width: 130px;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background: #9dfae6;
+  transition: all 0.3s linear;
+}
+.contact-form button:hover {
+  color: #fff;
+  background: #40b49b;
+}
+
+/* contact-list-com */
+.contact-list-com {
+  background: #c5fcf0;
+  padding: 20px;
+  margin: 30px;
+}
+.contact-list-com h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.Link-btn {
+  text-decoration: none;
+  margin: auto;
+  display: grid;
+  align-items: center;
+}
+.btn {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+  background: #fff;
+  color: #333;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.list {
+  display: grid;
+  background: #40b49b;
+  border-radius: 10px;
+  margin: 30px;
+}
+.list-item {
+  display: flex;
+}
+.user-img {
+  margin: 15px;
+  border-radius: 100%;
+  width: 90px;
+  display: inline;
+}
+.user-details {
+  width: 70%;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: auto 20px;
+  text-decoration: none;
+}
+.list-handler {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: auto 20px;
+}
+.list-handler i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.edit {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.card {
+  margin: 30px auto;
+  width: 30%;
+  background: #52dabc;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.card-image img {
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.card-details h2 {
+  color: #fff;
+  font-size: 2.25rem;
+}
+.card-details span {
+  font-size: 1.25rem;
+}
+.card .btn {
+  color: #40b49b;
+  margin: 1rem auto;
+  padding: 10px 20px;
+}
